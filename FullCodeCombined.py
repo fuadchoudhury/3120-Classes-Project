@@ -1,4 +1,5 @@
 from abc import ABC, abstractmethod
+#Parent Class
 class Animal(ABC):
     def __init__(self, name):
         self.name = name
@@ -8,7 +9,7 @@ class Animal(ABC):
     @abstractmethod
     def make_sound(self):
         pass
-
+#Child Class
 class Lion(Animal):
     def __init__(self, name, breed):
         super().__init__(name)
