@@ -5,6 +5,7 @@ class Otter(Animal):
     
         super().__init__(name) 
         self.is_hungry = True
+        
     def eat(self):
 
         if not self.is_hungry:
